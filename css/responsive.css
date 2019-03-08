@@ -1,0 +1,989 @@
+@media only screen and (max-width: 1329px){
+.services_box {
+  padding: 0;
+}
+.services_box .owl-nav {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+.services_box .owl-nav button {
+  display: inline-block;
+  left: -10px;
+  position: relative;
+  top: 0;
+}
+.services_box .owl-nav button.owl-next {
+  left: auto;
+  right: -10px;
+}
+.footer_contact li {
+    min-height: 40px;
+}
+.footer_contact li a {
+    line-height: 40px;
+}
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1329px){
+.main_slider .banner {
+    min-height: 584px !important;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1329px){
+html body {
+  padding-top: 174px;
+}
+.top-header ul li {
+  padding: 12px 0 12px 43px;
+}
+.top-header ul li span, .top-header ul li a {
+  font-size: 18px;
+}
+.bottom-header .logo {
+  max-width: 300px;
+}
+.main_slider .banner {
+  min-height: 465px;
+}
+.bottom-header .menu-act {
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+header#header.fixed {
+  margin-top: -52px;
+}
+a.button, .button, button, form input[type="submit"] {
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 25px;
+}
+.banner .banner_txt {
+  height: 255px;
+  left: 90px;
+  max-width: 580px;
+}
+body h2 {
+  font-size: 40px;
+}
+.section_gapping, .footer_top {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+body .main_title {
+  margin-bottom: 50px;
+}
+.sub_service .service_icon {
+  border: 10px solid #fff;
+  height: 230px;
+  max-width: 230px;
+}
+.sub_service .service_title > h2 {
+  font-size: 25px;
+}
+.services_section::before, .reviews_section::before {
+  height: 330px;
+}
+.chosse_section .why_box {
+  display: table;
+  margin: 0 auto;
+  max-width: 994px;
+}
+.chosse_section .why_box::before {
+  height: 239px;
+  max-width: 450px;
+}
+.why_box p {
+  font-size: 18px;
+  max-width: 220px;
+}
+.why_box li:first-child p {
+  max-width: 330px;
+}
+.why_box .icon {
+  height: 90px;
+  width: 90px;
+}
+.why_box .icon::before {
+  height: 100px;
+  left: -5px;
+  top: -5px;
+  width: 100px;
+}
+.why_box li {
+  min-height: 128px;
+  padding-right: 120px;
+}
+
+.why_box li:first-child {
+  max-width: 340px;
+  min-height: 120px;
+}
+.why_box li:first-child .icon {
+  bottom: -40px;
+}
+.why_box > li:nth-child(2) {
+  left: 68px;
+  max-width: 340px;
+  top: -10px;
+}
+.why_box > li:nth-child(3) {
+  max-width: 350px;
+  padding-left: 120px;
+  right: 58px;
+  top: -10px;
+}
+.why_box > li:nth-child(4) {
+  left: 0;
+  max-width: 310px;
+  top: -10px;
+}
+.why_box > li:nth-child(5) {
+  max-width: 310px;
+  padding-left: 120px;
+  right: 0;
+  top: -10px;
+}
+.main_protection h3 {
+  font-size: 30px;
+}
+.main_protection > p {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.protection_box > .protection_price {
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.protection_box > p {
+  font-size: 16px;
+}
+.protection_list {
+  margin: 20px 0 0;
+}
+.protection_list > li {
+  font-size: 15px;
+}
+.protection_list > li a {
+  font-size: 14px;
+}
+.protection_box h4 {
+  font-size: 16px;
+  line-height: 45px;
+}
+.review_item {
+  padding: 30px;
+}
+.footer_top .footer_title {
+  font-size: 24px;
+}
+.left_menu > li {
+  line-height: 45px;
+}
+.left_menu > li a {
+  font-size: 13px;
+}
+.footer-menu li a {
+  font-size: 15px;
+  line-height: 38px;
+  padding-left: 15px;
+}
+.footer_contact li {
+  font-size: 14px;
+}
+#myBtn {
+  bottom: 70px;
+}
+.checkout_main_title {
+  margin-top: 50px;
+}
+.package_section table tr th {
+  font-size: 24px;
+}
+.package_section table tr td {
+  font-size: 18px;
+}
+.package_section table tr td.total {
+  font-size: 22px;
+}
+.package_section table tr .total_title {
+  font-size: 35px;
+}
+.package_section table tr:last-child td.total {
+  font-size: 28px;
+}
+.what > a {
+  padding: 5px 0 5px 80px;
+}
+.what > a::after {
+  background-position: 0 -464px;
+  background-size: 100px auto;
+  height: 28px;
+}
+.faq_title {
+  margin: -30px auto 20px;
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+.left_menu > li a{
+	font-size: 13px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.footer_top .col-sm-12 {
+  margin-top: 30px;
+}
+.footer_bottom .social-icon {
+  text-align: center;
+}
+.copyright {
+  margin-top: 10px;
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+html body {
+  padding-top: 157px;
+}
+.top-header ul li {
+  padding: 12px 0 12px 43px;
+}
+.top-header ul li span, .top-header ul li a {
+  font-size: 18px;
+}
+.bottom-header .logo {
+  max-width: 230px;
+}
+header#header.fixed .logo {
+  max-width: 230px;
+  padding: 10px 0;
+}
+header#header.fixed .menu-act {
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.bottom-header .menu-act > li > a {
+  font-size: 17px;
+  padding: 8px 10px;
+}
+.main_slider .banner {
+  min-height: 380px;
+}
+.bottom-header .menu-act {
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+header#header.fixed {
+  margin-top: -52px;
+}
+a.button, .button, button, form input[type="submit"] {
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 25px;
+}
+.banner .banner_txt {
+  height: 222px;
+  left: 70px;
+  max-width: 470px;
+}
+body h2 {
+  font-size: 32px;
+}
+body p {
+  font-size: 16px;
+}
+.section_gapping, .footer_top {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+body .main_title {
+  margin-bottom: 30px;
+}
+.sub_service .service_icon {
+  border: 10px solid #fff;
+  height: 230px;
+  max-width: 230px;
+}
+.sub_service .service_title > h2 {
+  font-size: 25px;
+}
+.services_section::before, .reviews_section::before {
+  height: 330px;
+}
+.chosse_section .why_box {
+  display: table;
+  margin: 0 auto;
+  max-width: 738px;
+}
+.chosse_section .why_box::before {
+  height: 153px;
+  max-width: 290px;
+}
+.why_box .icon::after {
+  background-size: 100% auto;
+  height: 34px;
+  width: 48px;
+}
+.why_box .icon.choose_icon2::after {
+  background-position: center -52px;
+  height: 41px;
+  width: 53px;
+}
+.why_box .icon.choose_icon3::after {
+  background-position: center -96px;
+  width: 47px;
+}
+.why_box .icon.choose_icon4::after {
+  background-position: center -146px;
+}
+.why_box .icon.choose_icon5::after {
+  background-position: center -178px;
+  height: 38px;
+  width: 44px;
+}
+.why_box p {
+  font-size: 16px;
+  max-width: 196px;
+}
+.why_box li:first-child p {
+  max-width: 290px;
+}
+.why_box .icon {
+  height: 80px;
+  width: 80px;
+}
+.why_box .icon::before {
+  height: 90px;
+  left: -5px;
+  top: -5px;
+  width: 90px;
+}
+.why_box li {
+  min-height: 88px;
+  padding-right: 110px;
+}
+.why_box li:first-child {
+  max-width: 290px;
+  min-height: 100px;
+}
+.why_box li:first-child .icon {
+  bottom: -40px;
+}
+.why_box > li:nth-child(2) {
+  left: 38px;
+  max-width: 280px;
+  top: -20px;
+}
+.why_box > li:nth-child(3) {
+  max-width: 280px;
+  padding-left: 110px;
+  right: 38px;
+  top: -20px;
+}
+.why_box > li:nth-child(4) {
+  left: 10px;
+  max-width: 240px;
+  top: -20px;
+}
+.why_box > li:nth-child(5) {
+  max-width: 240px;
+  padding-left: 100px;
+  right: 10px;
+  top: -20px;
+}
+.main_protection h3 {
+  font-size: 30px;
+}
+.main_protection > p {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.protection_box > .protection_price {
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.protection_box > p {
+  font-size: 16px;
+}
+.protection_list {
+  margin: 20px 0 0;
+}
+.protection_list > li {
+  font-size: 14px;
+  padding: 0 15px 0 40px !important;
+}
+.protection_list > li::after {
+  top: 2px;
+}
+.protection_list > li a {
+  font-size: 14px;
+}
+.protection_box h4 {
+  font-size: 16px;
+  line-height: 45px;
+}
+.review_item {
+  padding: 25px;
+}
+.faq_box > h4 {
+  font-size: 22px;
+  padding-left: 40px;
+}
+.faq_box > p {
+  font-size: 16px;
+  padding-left: 40px;
+}
+.faq_box p span {
+  font-size: 22px;
+}
+.footer_top .footer_title {
+  font-size: 24px;
+}
+.left_menu > li {
+  line-height: 45px;
+}
+.footer-menu li a {
+  font-size: 15px;
+  line-height: 38px;
+  padding-left: 15px;
+}
+.footer_contact li {
+  font-size: 14px;
+}
+#myBtn {
+  bottom: 70px;
+}
+.protection_detail li {
+  padding: 0 20px;
+}
+.protection_detail ul li {
+  margin-top: 10px;
+}
+.main_protection .button {
+  font-size: 22px;
+}
+.main_slider .banner {
+  min-height: 255px;
+}
+.checkout_main_title {
+  margin-top: 50px;
+}
+.package_section table tr th {
+  font-size: 24px;
+}
+.package_section table tr td {
+  font-size: 18px;
+}
+.package_section table tr td.total {
+  font-size: 22px;
+}
+.package_section table tr .total_title {
+  font-size: 35px;
+}
+.package_section table tr:last-child td.total {
+  font-size: 28px;
+}
+.what > a {
+  padding: 5px 0 5px 80px;
+}
+.what > a::after {
+  background-position: 0 -464px;
+  background-size: 100px auto;
+  height: 28px;
+}
+.panel-body .button {
+  font-size: 28px;
+}
+.panel.panel_bg {
+  margin-bottom: 50px;
+}
+.panel-body p {
+  font-size: 16px;
+}
+.panel-body h4.panel-title {
+  font-size: 35px;
+}
+.contact_info > li a {
+  font-size: 25px;
+}
+.contact_info > li {
+  font-size: 16px;
+  padding-left: 80px;
+}
+.faq_title {
+  margin: -10px auto 20px;
+}
+.reviews_section .faq_title p {
+  font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+html body {
+  padding-top: 106px;
+}
+.top-header ul {
+  display: inline-block;
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.top-header ul li {
+  margin: 0 5px;
+  padding: 5px 0 5px 30px;
+}
+.top-header ul li::after {
+  background-size: 95px auto;
+  height: 23px;
+  width: 23px;
+}
+.top-header ul li.login::after {
+  background-position: 0 -32px;
+}
+.top-header ul li span, .top-header ul li a {
+  font-size: 16px;
+}
+.bottom-header .logo {
+  margin: 0 0 0 15px !important;
+  max-width: 200px;
+  padding: 10px 0;
+}
+header#header.fixed .logo {
+  max-width: 200px;
+}
+header#header.fixed {
+  margin-top: -35px;
+}
+.bottom-header .menu, .bottom-header .menu:hover, .bottom-header .menu:focus {
+  background-color: #256d9e;
+  border: medium none;
+  height: 40px;
+  margin: 14px 15px 14px 0;
+}
+.bottom-header .menu .icon-bar {
+  background-color: #fff;
+}
+body h2 {
+  font-size: 26px;
+}
+a.button, .button, button, form input[type="submit"] {
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+.main_slider .banner {
+  min-height: 275px;
+}
+.banner .banner_txt {
+  bottom: 0;
+  height: 185px;
+  left: 50px;
+  margin: auto;
+  max-width: 380px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.banner .banner_txt {
+  height: 185px;
+  left: 50px;
+  max-width: 380px;
+}
+body .main_slider .owl-nav button::after {
+  background-position: 0 -300px;
+  background-size: 104px auto;
+  height: 30px;
+  width: 35px;
+}
+body .main_slider .owl-nav button:hover::after {
+  background-position: 0 -300px;
+  opacity: 0.7;
+}
+.bottom-header, header#header.fixed .bottom-header {
+  border-bottom: 3px solid #ffe082;
+}
+.section_gapping, .footer_top {
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.bottom-header .menu-act {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.bottom-header .navbar-collapse {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 214px;
+}
+.bottom-header .menu-act > li > a {
+  font-size: 17px;
+  padding: 10px 15px;
+}
+.bottom-header .menu-act > li::after {
+  display: none;
+}
+.bottom-header .menu-act > li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+body p {
+  font-size: 14px;
+}
+body .main_title {
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+.sub_service .service_title > h2 {
+  font-size: 22px;
+}
+.services_section::before, .reviews_section::before {
+  height: 270px;
+}
+.protection_detail li {
+  padding: 0;
+}
+.main_protection h3 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.main_protection .button {
+  font-size: 20px;
+}
+.main_protection > p {
+  padding: 15px;
+}
+.protection_box .applicable {
+  font-size: 14px;
+}
+.protection_box > .protection_price {
+  font-size: 26px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.protection_list > li {
+  font-size: 14px;
+  padding: 0 10px 0 20px;
+}
+.protection_list > li::after {
+  left: 0;
+  top: 3px;
+}
+.protection_list > li a {
+  font-size: 14px;
+}
+.protection_detail > ul > li {
+  margin-top: 20px;
+}
+.protection_list {
+  margin: 20px 10px;
+  min-height: auto;
+}
+.protection_box h4 {
+  font-size: 16px;
+  line-height: 40px;
+}
+.review_item {
+  padding: 15px;
+}
+.review_item > p {
+  font-size: 14px;
+}
+.review_bottom .client_title, .review_bottom .star_box {
+  width: 100%;
+  text-align: center;
+}
+.review_bottom .star_box > span, .services_box .owl-nav {
+  margin-top: 10px;
+}
+.reviews .owl-nav {
+  margin: 10px auto 0;
+}
+.footer_bottom .copyright p, .footer_bottom .copyright p a, .footer_bottom .social-icon {
+  text-align: center;
+}
+.footer_bottom .copyright p {
+  margin-top: 10px;
+}
+.footer_top .footer_title {
+  font-size: 26px;
+}
+.left_menu > li {
+  line-height: 40px;
+}
+.left_menu > li a {
+  font-size: 14px;
+}
+.footer-menu li a {
+  font-size: 14px;
+  line-height: 35px;
+  padding-left: 15px;
+}
+.footer_top > .container > .row > div {
+  margin-bottom: 15px;
+}
+.footer_top > .container > .row > .col-md-5 > .row > div {
+  float: left;
+  width: 50%;
+}
+.footer_contact li {
+  font-size: 14px;
+  padding-left: 35px;
+}
+.footer_contact li::after {
+  background-position: 0 -71px;
+  background-size: 104px auto;
+  height: 25px;
+  width: 25px;
+}
+.footer_contact li.phone::after {
+  background-position: 0 -106px;
+}
+.footer_contact li.mail::after {
+  background-position: 0 -141px;
+}
+.footer_contact li a {
+  font-size: 14px;
+}
+#myBtn {
+  bottom: 80px;
+  right: 10px;
+}
+.error_404 h1 {
+  font-size: 110px;
+}
+.error_404 h2 {
+  font-size: 20px;
+}
+.error_404 .btn-wrap1 .button {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 10px;
+}
+.chosse_section .why_box::before {
+  display: none;
+}
+.why_box li:first-child {
+  max-width: 100%;
+  min-height: 100%;
+}
+.why_box li:first-child .icon {
+  bottom: 0;
+  margin: 20px 0;
+  position: relative;
+  top: 0;
+}
+.why_box p {
+  font-size: 18px;
+  max-width: 300px;
+}
+body .why_box .owl-nav button {
+  background-color: #fff;
+  border-radius: 40px;
+  height: 38px;
+  margin: 0 5px;
+  position: relative;
+  width: 39px;
+}
+body .why_box .owl-nav button::after {
+  background-position: 0 -472px;
+}
+body .why_box .owl-nav button:hover::after {
+  background-position: 0 -527px;
+}
+.why_choose_section {
+  padding-bottom: 35px !important;
+}
+.why_box .owl-nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.checkout_main_title {
+  margin-top: 30px;
+  padding: 0;
+}
+.package_section {
+  margin-bottom: 0;
+  padding: 0 0 2px;
+}
+.checout_box {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.package_section .table-responsive {
+  border-radius: 0;
+}
+.package_section table tr th {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.package_section table tr td {
+  font-size: 15px;
+  padding: 15px;
+}
+.package_section table tr td.total {
+  font-size: 18px;
+}
+.package_section table tr .total_title, .package_section table tr:last-child td.total {
+  font-size: 24px;
+}
+.package_section table tr td.total .glyphicon {
+  font-size: 14px;
+  height: 14px;
+  right: 7px;
+}
+.panel.panel_bg {
+  margin-bottom: 15px;
+}
+.panel-primarys .panel-heading {
+  font-size: 24px;
+  padding-left: 70px !important;
+}
+.panel-primarys .panel-heading::after {
+  background-position: 0 -448px;
+  background-size: 110px auto;
+  bottom: auto;
+  height: 40px;
+  left: 20px;
+  top: 26px;
+  width: 35px;
+}
+.panel.panel_bg .panel-heading {
+  padding-left: 15px;
+}
+.panel-heading h3.panel-title {
+  font-size: 22px;
+}
+.panel-heading .panel-title > span {
+  margin-right: 15px;
+}
+.panel-heading .panel-title > span::after {
+  background-position: 0 -505px;
+  background-size: 100px auto;
+  height: 57px;
+  left: -15px;
+  width: 87px;
+  top: -16px;
+}
+.panel.panel-primary.panel_bg .panel-body {
+  padding: 15px;
+}
+.panel.panel_bg .panel-body .panel-heading {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 20px;
+}
+.what > a::after {
+  background-position: 0 -464px;
+  background-size: 100px auto;
+  height: 28px;
+}
+.what > a {
+  padding: 5px 0 5px 80px;
+}
+.about_section p {
+  margin: 20px auto 0;
+}
+.faq_title {
+  margin: -10px auto 20px;
+}
+.faq_box > h4, .faq_box p span  {
+  font-size: 18px;
+}
+.faq_box > h4  {
+  padding-left: 33px;
+}
+.faq_box > p {
+  font-size: 14px;
+  padding-left: 33px;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+html body {
+  padding-top: 139px;
+}
+.main_slider .banner {
+  min-height: 175px;
+}
+.banner_txt h2 {
+  font-size: 18px;
+}
+.banner .banner_txt {
+  height: 150px;
+  max-width: 230px;
+}
+.footer_top > .container > .row > .col-md-5 > .row > div {
+  float: none;
+  width: 100%;
+}
+.footer_top > .container > .row > .col-md-5 > .row > div:first-child {
+  margin-bottom: 20px;
+}
+.bottom-header .navbar-collapse {
+    height: 100%;
+}
+.panel-primarys .panel-heading {
+  padding-bottom: 90px !important;
+}
+.panel-primarys .panel-heading span {
+  bottom: 10px;
+  left: 17px;
+  right: auto;
+  top: auto;
+}
+.checkbox label {
+  font-size: 14px;
+}
+.checkout_page .panel-body .checkbox {
+  margin-bottom: 10px;
+}
+.panel-body .button {
+  font-size: 22px;
+}
+.panel-body p {
+  font-size: 14px;
+}
+.contact_info > li::after {
+  background-position: -109px 10px;
+  height: 45px;
+  width: 45px;
+}
+.contact_info > li.mail_icon::after {
+  background-position: -107px -42px;
+}
+.contact_info > li.address_icon::after {
+  background-position: -112px -96px;
+}
+.contact_info > li a {
+  font-size: 20px;
+  line-height: 45px;
+}
+.contact_info > li {
+  font-size: 14px;
+  padding-left: 55px;
+}
+.panel-body h4.panel-title {
+  font-size: 28px;
+}
+header#header.fixed {
+    margin-top: -68px;
+}
+
+}

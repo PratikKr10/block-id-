@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<title>404 | Blockidtheft Crypto Technology</title>
+<meta charset="UTF-8" />
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="css/ie.css" />
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<link type="text/css" rel="stylesheet" href="css/responsive.css" />
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/respond.js"></script>
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet"> 
+
+<!-- responsive menu -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.menu').click(function(){
+			$('body').toggleClass('show-menu');
+		});
+		$('.close-button').click(function(){
+			$('body').removeClass('show-menu');
+		});
+		$(window).scroll(function(){
+		  var sticky = $('#header'),
+			  scroll = $(window).scrollTop();
+
+		  if (scroll >= 70) sticky.addClass('fixed');
+		  else sticky.removeClass('fixed');
+		});
+		
+		$(document).ready(function(){
+			// hide #back-top first
+			$("#myBtn").hide();
+			
+			// fade in #back-top
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) {
+						$('#myBtn').fadeIn();
+					} else {
+						$('#myBtn').fadeOut();
+					}
+				});
+
+				// scroll body to 0px on click
+				$('#myBtn').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 1000);
+					return false;
+				});
+			});
+		});
+		$("#header").load("header.html");
+	    $("#footer").load("footer.html");
+	    
+	});
+</script>
+<!-- responsive menu end -->
+
+</head>
+
+<body>
+	<header id="header"></header>
+	<div class="container-fluid">
+		<div class="row">
+			<section class="section_gapping ">
+				<div class="container">
+					<div class="error_404">
+						<h1 class="b-404 text-center">404!</h1>
+						<h2 class="text-center">The Page you Requested is no longer Here.</h2>
+						<p class="text-center">It looks like nothing was found at this location.</p>
+						 <div class="btn-wrap1"><a href="index.html" class="button">HOME</a></div>
+					
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer id="footer"></footer>
+ 
+ <a onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;"><span class="glyphicon glyphicon-chevron-up"></span></a>
+</body>
+</html>

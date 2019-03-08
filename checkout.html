@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<title>Checkout | Blockidtheft Crypto Technology</title>
+<meta charset="UTF-8" />
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<link type="text/css" rel="stylesheet" href="css/responsive.css" />
+<script src="js/html5.js"></script>
+<script src="js/respond.js"></script>
+<script src="js/jquery.min.js" ></script>
+<script src="js/bootstrap.min.js" ></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet"> 
+
+<!-- responsive menu -->
+<script>
+	$(document).ready(function(){
+		$('.menu').click(function(){
+			$('body').toggleClass('show-menu');
+		});
+		$('.close-button').click(function(){
+			$('body').removeClass('show-menu');
+		});
+		$(window).scroll(function(){
+		  var sticky = $('#header'),
+			  scroll = $(window).scrollTop();
+
+		  if (scroll >= 70) sticky.addClass('fixed');
+		  else sticky.removeClass('fixed');
+		});
+		
+		$(document).ready(function(){
+			// hide #back-top first
+			$("#myBtn").hide();
+			
+			// fade in #back-top
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) {
+						$('#myBtn').fadeIn();
+					} else {
+						$('#myBtn').fadeOut();
+					}
+				});
+
+				// scroll body to 0px on click
+				$('#myBtn').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 1000);
+					return false;
+				});
+			});
+		});
+		$("#header").load("header.html");
+	    $("#footer").load("footer.html");
+
+	});
+</script>
+<!-- responsive menu end -->
+
+</head>
+
+<body class="inner_page checkout_page">
+	<header id="header"></header>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 checkout_main_title">
+					<h2 class="main_title"><span class="sub_title">Shopping</span> Cart</h2>
+				</div>
+				<div class="col-xs-12 package_section">
+					<div class="table-responsive">
+					  <table class="table">
+						<tr>
+							<th>Package</th>
+							<th>Plan</th>
+							<th>Total</th>
+						</tr>
+						<tr>
+							<td>Ultimate Plus</td>
+							<td>Monthly</td>
+							<td class="total">$29.99 <a href="JavaScript:Void(0);" class="glyphicon glyphicon-remove"></a></td>
+						</tr>
+						<tr class="sub_total">
+							<td rowspan="2"></td>
+							<td colspan="2" class="total">$0.00</td>
+						</tr>
+						<tr>
+							<td class="total_title">Total</td>
+							<td class="total">$29.99</td>
+						</tr>
+					  </table>
+					</div>
+				</div>
+				<div class="col-xs-12 checout_box">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="panel panel-primary panel-primarys panel_bg">
+							  <div class="panel-heading">Safe & Secure <b>Order Form</b><span><img src="images/secure_img.png" title="" alt=""></span></div>
+							  <div class="panel-body">
+								<img src="images/paypay_img.jpg" title="" alt="">
+							  </div>
+							</div>
+
+							<div class="panel panel-primary panel_bg">
+							  <div class="panel-heading">
+								<h3 class="panel-title"><span>Step 1</span> Member Details</h3>
+							  </div>
+							  <div class="panel-body">
+								<form class="form-horizontal">
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_1"></div>
+									  <input type="text" class="form-control" id="first_name" placeholder="First Name">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_1"></div>
+									  <input type="text" class="form-control" id="last_name" placeholder="Last Name">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_2"></div>
+									  <input type="text" class="form-control" id="address" placeholder="Address">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_3"></div>
+									  <input type="text" class="form-control" id="city" placeholder="City">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_4"></div>
+									  <input type="text" class="form-control" id="country" placeholder="Country">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_4"></div>
+									  <input type="text" class="form-control" id="state" placeholder="State">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_5"></div>
+									  <input type="text" class="form-control" id="zip_code" placeholder="Zip Code">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_6"></div>
+									  <input type="email" class="form-control" id="email" placeholder="Email">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_7"></div>
+									  <input type="text" class="form-control" id="phone" placeholder="Phone">
+									</div>
+								  </div>
+								  
+								  <div class="panel-heading">
+									<h3 class="panel-title"><span>Step 2</span> Payment Information</h3>
+								  </div>
+								  <div class="paypal_box">
+									<h2>We Accept</h2>
+									<img src="images/accept_img.jpg" title="" alt="">
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_8"></div>
+									  <input type="text" class="form-control" id="cards" placeholder="Select Cards">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									   <div class="input-group-addon icon_8"></div>
+									  <input type="text" class="form-control" id="credi" placeholder="Credi Card Number">
+									</div>
+								  </div>
+								  <div class="paypal_box">
+									<h2>Expiration Date</h2>
+								  </div>
+								  <div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-addon icon_9"></div>
+												<input type="text" class="form-control" id="select_crds" placeholder="Select Cards">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-addon icon_8"></div>
+												<input type="text" class="form-control" id="cvv" placeholder="CVV">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-addon icon_9"></div>
+												<input type="text" class="form-control" id="year" placeholder="Year">
+											</div>
+										</div>
+										<div class="what">
+											<a href="#">What is this?</a>
+										</div>
+									</div>
+									</div>
+								  <div class="">
+									<div class="checkbox">
+									  <label>
+										<input type="checkbox" value="">
+										<span></span>
+										By placing an order with us, you agree to our full <a href="JavaScript:Void(0);">Terms and Conditions</a>  and <a href="JavaScript:Void(0);">Privacy Policy</a> where you will immediately be billed the retail price of the product selected. By checking this box you also agree to receive email’s from MaskFresh Beauty Cosmetic.	
+									  </label>
+									</div>
+									<div class="checkbox">
+									  <label>
+										<input type="checkbox" value="">
+										<span></span>
+										By checking this box, you are agreeing to a <a href="JavaScript:Void(0);">monthly recurring</a> charge for the products you purchased.	
+									  </label>
+									</div>
+								  </div>								  
+								  <a class="button" href="JavaScript:Void(0);">Complete Checkout</a>
+								</form>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel panel-primary panel_bg">
+							  <div class="panel-heading">
+								<h3 class="panel-title">Customer Support</h3>
+							  </div>
+							  <div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+								<ul class="contact_info">
+									<li class="phone_icon"><a href="tel:+18002440364">+1(800) 244-0364</a></li>
+									<li class="mail_icon"><a href="mailto:tech@lockedidllc.com">tech@lockedidllc.com</a></li>
+								</ul>
+							  </div>
+							</div>
+							<div class="panel panel-primary panel_bg">
+							  <div class="panel-body">
+								 <h4 class="panel-title">Corporate Address</h4>
+								<ul class="contact_info">
+									<li class="address_icon">722 116th Ave. N Apt 2008<br>St Petersburg, FL 33716, USA</li>
+									<li class="address_icon">72 High Street, Haslemere, Surrey,<br>GU27 2LA, UNITED KINGDOM</li>
+								</ul>
+							  </div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer"></footer>
+	<a onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;"><span class="glyphicon glyphicon-chevron-up"></span></a>
+</body>
+</html>

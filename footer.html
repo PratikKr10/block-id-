@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $(".footer-menu li a").each(function(){
+	var pathname1 = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+		var pathname = pathname1.replace("#/", "");
+		if ( $(this).attr('href') == pathname) { 
+			$(this).parent().addClass('active');
+		 } 
+	   });
+});
+</script>
+<div class="footer_top">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-5">
+				<h2 class="footer_title">Identity Theft News</h2>
+				<ul class="left_menu">
+					<li><a href="JavaScript:Void(0);">Computers: Friend and Foe <span>[+]</span></a></li>
+					<li><a href="JavaScript:Void(0);">Data Breaches <span>[+]</span></a></li>
+					<li><a href="JavaScript:Void(0);">Is Your Employer Protecting You? <span>[+]</span></a></li>
+					<li><a href="JavaScript:Void(0);">ID Monitoring v. Credit Monitoring <span>[+]</span></a></li>
+					<li><a href="JavaScript:Void(0);" class="last">View All</a></li>
+				</ul>
+			</div>
+			<div class="col-md-5 col-sm-7">
+				<div class="row">
+					<div class="col-md-5 col-sm-5">
+						<h2 class="footer_title">Quick Links</h2>
+						<ul class="footer-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="JavaScript:Void(0);">About</a></li>
+							<li><a href="JavaScript:Void(0);">News</a></li>
+							<li><a href="JavaScript:Void(0);">FAQs</a></li>
+							<li><a href="JavaScript:Void(0);">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col-md-7 col-sm-7">
+						<h2 class="footer_title">Support</h2>
+						<ul class="footer-menu">
+							<li><a href="JavaScript:Void(0);">Legal Information</a></li>
+							<li><a href="JavaScript:Void(0);">Member Support Center</a></li>
+							<li><a href="JavaScript:Void(0);">Reviews</a></li>
+							<li><a href="JavaScript:Void(0);">Privacy Policy</a></li>
+							<li><a href="JavaScript:Void(0);">Terms & Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h2 class="footer_title">Contact Us</h2>
+				<ul class="footer_contact">
+					<li class="address">722 116th Ave. N Apt 2008 <br>St Petersburg, FL 33716, USA</li>
+					<li class="address">72 High Street, Haslemere, Surrey,<br>GU27 2LA, UNITED KINGDOM</li>
+					<li class="phone"><a href="tel:+18002440364">+1(800) 244-0364</a>, <a href="tel:+18889192851">+1(888) 919-2851</a></li>
+					<li class="mail"><a href="mailto:tech@lockedidllc.com">tech@lockedidllc.com</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer_bottom">
+	<div class="container">
+		<div class="row">
+			<div class="social-icon col-md-3 col-md-push-9">
+				<ul>
+					<li><a href="https://www.facebook.com/login" target="_blank" class="fb_icon"></a></li>
+					<li><a href="https://twitter.com/login" target="_blank" class="tw_icon"></a></li>
+				</ul>
+			</div>
+			<div class="copyright col-md-9 col-md-pull-3">
+				<p>Copyright 2018 <a href="index.html">Block Id Theft Crypto Technology</a>. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</html>
